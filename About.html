@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/poptXe5edy74dMuy7" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			About Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>ALS Offers</h1>
+		<p>ALS provides a second chance for individuals who were unable to complete their formal education.</p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>What is Alternative Learning System (ALS)?:</h3>
+				<p>The Alternative Learning System (ALS) is an educational program aimed at individuals who did not complete formal schooling. It offers a flexible and personalized learning approach, accommodating various learning styles and paces.
+					ALS provides diverse subjects and levels, enabling students to pursue a high school equivalency diploma or certifications.
+					The curriculum focuses on practical skills relevant to learners' lives and future goals, with learning environments that may include in-person or online instruction. 
+					The primary goal of ALS is to ensure equitable access to education and empower individuals to enhance their lives through learning. </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Vision:</h3>
+				<p>"To provide equitable access to quality education for all, regardless of age, location, or circumstances, empowering individuals to improve their lives and contribute to society. This means ensuring that everyone has the opportunity to complete their basic education and acquire the skills needed to succeed in life."</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Mission:</h3>
+				<p>"To provide access to quality basic education for out-of-school children, youth, and adults who are unable to attend formal school.".</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF3</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Me</h3>
+			<li>aikaguinayao50@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Me</h3>
+			<li>Tel #0935-454-9927</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li>ALS Manolo Maps</li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
